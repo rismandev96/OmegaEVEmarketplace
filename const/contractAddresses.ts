@@ -1,21 +1,11 @@
-interface Chain {
-  name: string;
-  chainId: number;
-  networkId: number;
-  rpc: string[];
-  faucets: never[];
-  nativeCurrency: {
-    name: string;
-    symbol: string;
-    decimals: number;
-  };
-  infoURL: string;
-  shortName: string;
-  testnet: boolean;
+import { Chain } from "@thirdweb-dev/chains"; // Import the relevant module for the Chain type
+
+// Define the Chain interface to match the expected type
+interface CustomChain extends Chain {
   slug: string;
 }
 
-export const NETWORK: Chain = {
+export const NETWORK: CustomChain = {
   name: "OmegaMainNetwork",
   chainId: 408,
   networkId: 408,
