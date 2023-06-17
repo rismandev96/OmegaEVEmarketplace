@@ -1,5 +1,4 @@
-import type { Chain } from "@thirdweb-dev/react";
-export default {
+{
   "name": "Omega Main Network",
   "chain": "OmegaMainNetwork",
   "rpc": [
@@ -17,4 +16,4 @@ export default {
   "networkId": 408,
   "testnet": false,
   "slug": "omega-main-network"
-} as const satisfies Chain;
+}
