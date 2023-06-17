@@ -1,18 +1,22 @@
-/** Replace the values below with the addresses of your smart contracts. */
+export const NETWORK = {
+  chain: "OmegaMainNetwork",
+  rpc: [
+    "https://mainnet-rpc.omtch.com/"
+  ],
+  faucets: [],
+  nativeCurrency: {
+    name: "OmegaMainNetwork",
+    symbol: "OMN",
+    decimals: 18
+  },
+  infoURL: "https://explorer.omtch.com/",
+  shortName: "OMN",
+  chainId: 408,
+  networkId: 408,
+  testnet: false,
+  slug: "omega-main-network"
+};
 
-// 1. Set up the network your smart contracts are deployed to.
-// First, import the chain from the package, then set the NETWORK variable to the chain.
-import { OmegaMainNetwork } from "../408.js";
-export const NETWORK = OmegaMainNetwork;
-
-// 2. The address of the marketplace V3 smart contract.
-// Deploy your own: https://thirdweb.com/thirdweb.eth/MarketplaceV3
 export const MARKETPLACE_ADDRESS = "0x9D71f10Df7387C35756aE7a3f56B178Fa42D6fAf";
-
-// 3. The address of your NFT collection smart contract.
-export const NFT_COLLECTION_ADDRESS =
-  "0xFfd9bAddF3f6e427EfAa1A4AEC99131078C1d683";
-
-// (Optional) Set up the URL of where users can view transactions on
-// For example, below, we use Mumbai.polygonscan to view transactions on the Mumbai testnet.
+export const NFT_COLLECTION_ADDRESS = "0xFfd9bAddF3f6e427EfAa1A4AEC99131078C1d683";
 export const ETHERSCAN_URL = "https://explorer.omtch.com/";
