@@ -1,11 +1,12 @@
 import { Chain } from "@thirdweb-dev/chains"; // Import the relevant module for the Chain type
 
-// Define the Chain interface to match the expected type
+// Define the CustomChain interface extending the Chain type
 interface CustomChain extends Chain {
   slug: string;
 }
 
 export const NETWORK: CustomChain = {
+  chain: "OmegaMainNetwork", // Include the chain property
   name: "OmegaMainNetwork",
   chainId: 408,
   networkId: 408,
