@@ -38,33 +38,33 @@ const Home: NextPage = () => {
             <div className={styles.heroBody}>
               <h1 className={styles.heroTitle}>
                 <span className={styles.heroTitleGradient}>
-                  Build NFT Marketplaces
+                  Fist NFT Marketplaces
                 </span>
                 <br />
-                faster than ever.
+                on Omega Network.
               </h1>
               <p className={styles.heroSubtitle}>
                 <Link
                   className={styles.link}
-                  href="https://thirdweb.com"
+                  href="https://omega-eve.my.id/"
                   target="_blank"
                 >
-                  thirdweb
+                  Omega Eve NFT
                 </Link>{" "}
-                gives you the tools you need to create audited, performant, and
-                flexible NFT marketplaces in <b>hours</b>, <i>not months</i>.
+                a captivating realm where the fusion of boundless
+                 creativity and vivid hues gives birth to a mesmerizing <b>tapestry of</b> <i>digital artistry</i>.
               </p>
 
               <div className={styles.heroCtaContainer}>
                 <Link className={styles.heroCta} href="/buy">
-                  Get Started
+                  Buy Now!
                 </Link>
                 <Link
                   className={styles.secondaryCta}
-                  href="https://github.com/thirdweb-example/marketplace-v3"
+                  href="https://explorer.omtch.com/token/0x2c47544a8cDCc089E851e7BC8A6Cbfc05d96229B/inventory"
                   target="_blank"
                 >
-                  GitHub
+                  Smart Contract
                 </Link>
               </div>
             </div>
