@@ -1,4 +1,3 @@
-import type { Chain } from "../src/types";
 export default {
   "name": "Omega Main Network",
   "chain": "OmegaMainNetwork",
