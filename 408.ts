@@ -1,3 +1,4 @@
+import type { Chain } from "@thirdweb-dev/react";
 export default {
   "name": "Omega Main Network",
   "chain": "OmegaMainNetwork",
