@@ -1,5 +1,4 @@
-{
-  "name": "Omega Main Network",
+export default {
   "chain": "OmegaMainNetwork",
   "rpc": [
     "https://mainnet-rpc.omtch.com/"
@@ -16,4 +15,4 @@
   "networkId": 408,
   "testnet": false,
   "slug": "omega-main-network"
-}
+} as const satisfies OmegaMainNetwork;
