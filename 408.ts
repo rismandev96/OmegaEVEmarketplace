@@ -15,4 +15,4 @@ export default {
   "networkId": 408,
   "testnet": false,
   "slug": "omega-main-network"
-} as const satisfies OmegaMainNetwork;
+}
