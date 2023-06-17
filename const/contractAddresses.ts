@@ -2,7 +2,7 @@
 
 // 1. Set up the network your smart contracts are deployed to.
 // First, import the chain from the package, then set the NETWORK variable to the chain.
-import { OmegaMainNetwork } from "../408";
+import { OmegaMainNetwork } from "../408.ts";
 export const NETWORK = OmegaMainNetwork;
 
 // 2. The address of the marketplace V3 smart contract.
