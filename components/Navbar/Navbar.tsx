@@ -33,7 +33,7 @@ export function Navbar() {
             <Link href="/stake" className={styles.link}>
               Stake
             </Link>
-            <Link href="/roadmap" className={styles.link}>
+            <Link href="/roadmap.html" className={styles.link}>
               Roadmap
             </Link>
           </div>
