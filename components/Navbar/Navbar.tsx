@@ -33,7 +33,7 @@ export function Navbar() {
             <Link href="/stake" className={styles.link}>
               Stake
             </Link>
-            <Link href="/index.html" className={styles.link}>
+            <Link href="https://roadmap-eve.vercel.app/">
               Roadmap
             </Link>
           </div>
