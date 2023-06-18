@@ -31,10 +31,10 @@ export function Navbar() {
               Sell
             </Link>
             <Link href="/stake" className={styles.link}>
-              Sell
+              Stake
             </Link>
             <Link href="/roadmap" className={styles.link}>
-              Sell
+              Roadmap
             </Link>
           </div>
         </div>
