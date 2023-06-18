@@ -16,7 +16,7 @@ import {
   nftDropContractAddress,
   stakingContractAddress,
   tokenContractAddress,
-} from "../consts/contractAddresses";
+} from "../const/contractAddresses";
 import styles from "../styles/Home.module.css";
 
 const Stake: NextPage = () => {
